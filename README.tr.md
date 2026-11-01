@@ -38,12 +38,41 @@ En son sürümü **[Releases sayfasından](../../releases/latest)** indir.
 | 🍎 **macOS** (Apple Silicon) | `PaintlyPaint-x.y.z-mac-arm64.dmg` | M1 / M2 / M3 / M4 Mac'ler |
 | 🍎 **macOS** (Intel) | `PaintlyPaint-x.y.z-mac-x64.dmg` | Intel işlemcili Mac'ler |
 
-> [!NOTE]
-> **macOS'ta ilk açılış:** **Paintly Paint**'i **Uygulamalar** klasörüne sürükle ve aç. Uygulama henüz ücretli bir Apple sertifikasıyla imzalanmadığı için macOS "doğrulanamadı" diyecek.
-> **Bitti**'ye tıkla, **Sistem Ayarları → Gizlilik ve Güvenlik**'e git, aşağı kaydır ve **Yine de Aç**'a tıkla (bir kez yeterli).
-> Ya da Terminal'de: `xattr -cr "/Applications/Paintly Paint.app"`
+### 🍎 macOS'a kurulum
+
+1. İndirdiğin `.dmg` dosyasını aç.
+2. Açılan pencerede **Paintly Paint'i Uygulamalar (Applications) klasörüne sürükle**. Doğrudan disk görüntüsünün içinden çalıştırma.
+3. Paintly Paint'i **Launchpad**'den veya **Uygulamalar** klasöründen aç.
+
+İlk açılışta macOS şu uyarıyı gösterir:
+
+> *Apple, "Paintly Paint" öğesinin Mac'inize zarar verebilecek veya gizliliğinizi ihlal edebilecek bir kötü amaçlı yazılım içermediğini doğrulayamadı.*
+
+**Bu uyarı neden çıkıyor?** Apple bu uyarıyı yalnızca Apple Developer Program'a (yıllık 99 $) üye olan ve her sürümünü Apple'a kontrol ettiren ("notarization") geliştiricilerin uygulamalarında göstermiyor. Paintly Paint ücretsiz bir hobi projesi ve henüz bu onaydan geçmedi, bu yüzden macOS uygulamaya kefil olamıyor. Uygulama güvenli: hiçbir veri toplamaz, internete bağlanmaz, sadece senin seçtiğin resim dosyalarını açıp kaydeder.
+
+**Yine de açmak için (bir kez yeterli):**
+
+1. Uyarıda **Bitti**'ye tıkla. Uygulamayı Çöp Sepeti'ne taşıma.
+2. **Sistem Ayarları → Gizlilik ve Güvenlik**'i aç.
+3. Aşağı kaydır, *"Paintly Paint" engellendi…* yazısının yanındaki **Yine de Aç**'a tıkla.
+4. Şifreni veya Touch ID'ni gir, ardından **Aç**'a tıkla.
+
+**Ya da Terminal ile (tek komut):**
+
+```bash
+xattr -cr "/Applications/Paintly Paint.app"
+```
+
+Tarayıcı indirdiğin her dosyaya "internetten indirildi" işareti (*karantina* işareti) koyar; uyarıyı çıkaran şey bu işarettir. Bu komut işareti sadece Paintly Paint'ten kaldırır. Mac'indeki başka hiçbir güvenlik ayarını değiştirmez.
+
+> [!TIP]
+> Terminal `No such file` derse uygulama henüz Uygulamalar klasöründe değildir. Önce yukarıdaki 2. adımı yap.
 >
-> **Windows'ta ilk açılış:** SmartScreen "Windows bilgisayarınızı korudu" diyebilir → **Ek bilgi** → **Yine de çalıştır**.
+> macOS uygulama için **"hasarlı / bozuk"** derse büyük ihtimalle 1.0.0 sürümünü indirmişsindir. Bunun yerine [en son sürümü](../../releases/latest) indir.
+
+### 🪟 Windows'a kurulum
+
+`PaintlyPaint-x.y.z-win-setup.exe` dosyasını (ya da taşınabilir `.exe`'yi) çalıştır. Windows SmartScreen *"Windows bilgisayarınızı korudu"* diyebilir. Sebebi macOS'takiyle aynı: uygulama ücretli bir kod imzalama sertifikasıyla imzalanmadı. **Ek bilgi → Yine de çalıştır**'a tıkla.
 
 ---
 

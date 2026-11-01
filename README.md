@@ -38,12 +38,41 @@ Grab the latest version from the **[Releases page](../../releases/latest)**.
 | 🍎 **macOS** (Apple Silicon) | `PaintlyPaint-x.y.z-mac-arm64.dmg` | M1 / M2 / M3 / M4 Macs |
 | 🍎 **macOS** (Intel) | `PaintlyPaint-x.y.z-mac-x64.dmg` | Older Intel Macs |
 
-> [!NOTE]
-> **First launch on macOS:** drag **Paintly Paint** into **Applications**, then open it. The app isn't signed with a paid Apple certificate yet, so macOS will say it "can't be verified".
-> Click **Done**, go to **System Settings → Privacy & Security**, scroll down and click **Open Anyway** (you only need to do this once).
-> Or, in Terminal: `xattr -cr "/Applications/Paintly Paint.app"`
+### 🍎 Installing on macOS
+
+1. Open the downloaded `.dmg` file.
+2. **Drag Paintly Paint onto the Applications folder** in the window that opens. Don't run it straight from the disk image.
+3. Open Paintly Paint from **Launchpad** or **Applications**.
+
+The first time you open it, macOS shows this warning:
+
+> *Apple could not verify "Paintly Paint" is free of malware that may harm your Mac or compromise your privacy.*
+
+**Why does this happen?** Apple only skips this warning for apps from developers who pay for the Apple Developer Program (US$99 per year) and send each version to Apple for checking ("notarization"). Paintly Paint is a free hobby project and isn't notarized yet, so macOS can't vouch for it. The app is safe. It doesn't collect any data or connect to the internet, and it only reads and saves the image files you choose.
+
+**To open it anyway (once):**
+
+1. Click **Done** on the warning. Don't move the app to the Trash.
+2. Open **System Settings → Privacy & Security**.
+3. Scroll down to the message *"Paintly Paint" was blocked…* and click **Open Anyway**.
+4. Confirm with your password or Touch ID, then click **Open**.
+
+**Or use Terminal (one command):**
+
+```bash
+xattr -cr "/Applications/Paintly Paint.app"
+```
+
+When you download a file, your browser marks it as "downloaded from the internet" (a *quarantine* flag), and this flag is what triggers the warning. This command removes the flag from Paintly Paint only. It doesn't change any other security settings on your Mac.
+
+> [!TIP]
+> If Terminal says `No such file`, the app isn't in Applications yet. Do step 2 above first.
 >
-> **First launch on Windows:** SmartScreen may show "Windows protected your PC" → click **More info** → **Run anyway**.
+> If macOS says the app **"is damaged"**, you probably downloaded version 1.0.0. Download the [latest version](../../releases/latest) instead.
+
+### 🪟 Installing on Windows
+
+Run `PaintlyPaint-x.y.z-win-setup.exe` (or the portable `.exe`). Windows SmartScreen may say *"Windows protected your PC"*. This happens for the same reason as on macOS: the app isn't signed with a paid code-signing certificate. Click **More info → Run anyway**.
 
 ---
 
