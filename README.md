@@ -5,7 +5,7 @@
 <br>
 
 **Everything you love about classic Paint and Paint.NET, in one cute, free app.**
-Layers, 60+ effects & adjustments, magic wand, gradients, text, shapes, unlimited undo, and 20 languages.
+Layers, 60+ effects & adjustments, wand, gradients, text, shapes, unlimited undo, and 20 languages.
 
 <br>
 
@@ -39,8 +39,9 @@ Grab the latest version from the **[Releases page](../../releases/latest)**.
 | 🍎 **macOS** (Intel) | `PaintlyPaint-x.y.z-mac-x64.dmg` | Older Intel Macs |
 
 > [!NOTE]
-> **First launch on macOS:** the app isn't signed with a paid Apple certificate yet, so macOS may say it "can't be opened".
-> Right-click the app → **Open** → **Open** once, or run `xattr -cr "/Applications/Paintly Paint.app"`.
+> **First launch on macOS:** drag **Paintly Paint** into **Applications**, then open it. The app isn't signed with a paid Apple certificate yet, so macOS will say it "can't be verified".
+> Click **Done**, go to **System Settings → Privacy & Security**, scroll down and click **Open Anyway** (you only need to do this once).
+> Or, in Terminal: `xattr -cr "/Applications/Paintly Paint.app"`
 >
 > **First launch on Windows:** SmartScreen may show "Windows protected your PC" → click **More info** → **Run anyway**.
 
@@ -78,7 +79,7 @@ Grab the latest version from the **[Releases page](../../releases/latest)**.
 <td valign="top">
 
 ### ✂️ Selections
-- **Rectangle**, **Ellipse**, **Lasso** and **Magic Wand**
+- **Rectangle**, **Ellipse**, **Lasso** and **Wand**
 - Replace, add, subtract, intersect, xor modes
 - Animated marching ants 🐜
 - **Move Selected Pixels** with resize handles, or **Move Selection** outline only
@@ -217,9 +218,10 @@ Can't donate? ⭐ **Starring the repo** helps a lot too!
 
 | ✅ You may | ❌ You may not |
 | :-- | :-- |
-| Download it free from the [official Releases page](../../releases/latest) | Modify, decompile or reverse engineer it |
+| Download it free from the [official Releases page](../../releases/latest) | Modify, decompile or reverse engineer the app |
 | Use it personally, at school or at a non-profit | Share, re-upload or mirror the app files. Share the official link instead 🙂 |
-| Recommend it with the official link | Sell it or use it commercially |
+| Use **the images you create** for anything, **even commercially** 🎨 | **Sell the app** or use the app itself in a commercial product |
+| Recommend it with the official link | Remove the license or copyright notices |
 
 Images **you create** with Paintly Paint are entirely yours, and you can use them however you like, even commercially.
 For any other permission, please [open an issue](../../issues).

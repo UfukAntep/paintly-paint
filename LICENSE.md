@@ -19,7 +19,7 @@ Unless you have the author's prior written permission, you may **not**:
 1. **Modify** the Software, or create derivative works based on it;
 2. **Reverse engineer, decompile, disassemble or extract** the Software or its source code, except to the extent such a restriction is prohibited by applicable law;
 3. **Share, redistribute, re-upload, mirror, bundle or publish** the Software or any part of it, whether for free or not. To recommend Paintly Paint to someone, share the official link above instead;
-4. **Sell, rent, lease, sublicense** or otherwise **use the Software commercially**, including in paid products or to provide paid services;
+4. **Sell, rent, lease, sublicense** or otherwise **use the Software itself commercially**, including bundling it in paid products. This does not limit your rights to your own artwork (see section 3);
 5. **Remove or alter** any copyright notice, license text, branding or donation information in the Software.
 
 ## 3. Your artwork
@@ -57,7 +57,7 @@ For commercial licensing, redistribution or any other permission, please open an
 *Bu özet kolaylık içindir; bağlayıcı olan yukarıdaki İngilizce metindir.*
 
 - ✅ Paintly Paint'i resmî sayfadan **ücretsiz indirip** kişisel, eğitim amaçlı ve ticari olmayan işlerde **kullanabilirsin**.
-- ❌ Uygulamayı **değiştirmek**, kaynak kodunu çıkarmak, **paylaşmak / yeniden yüklemek**, **satmak** veya ticari amaçla kullanmak yasaktır. Birine önermek istersen resmî indirme linkini paylaş.
+- ❌ Uygulamayı **değiştirmek**, kaynak kodunu çıkarmak, **paylaşmak / yeniden yüklemek**, **satmak** veya ticari bir ürünün parçası yapmak yasaktır. Birine önermek istersen resmî indirme linkini paylaş.
 - 🎨 Uygulamayla yaptığın **resimler tamamen senindir**; ticari dahil istediğin gibi kullanabilirsin.
 - 💜 Bağışlar gönüllüdür ve ek hak sağlamaz.
 - Yazılım "olduğu gibi" sunulur, hiçbir garanti verilmez.

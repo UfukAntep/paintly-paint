@@ -5,7 +5,7 @@
 <br>
 
 **Klasik Paint ve Paint.NET'te sevdiğin her şey, tek bir tatlı ve ücretsiz uygulamada.**
-Katmanlar, 60'tan fazla efekt ve ayarlama, sihirli değnek, degradeler, metin, şekiller, sınırsız geri alma ve 20 dil.
+Katmanlar, 60'tan fazla efekt ve ayarlama, değnek, degradeler, metin, şekiller, sınırsız geri alma ve 20 dil.
 
 <br>
 
@@ -39,8 +39,9 @@ En son sürümü **[Releases sayfasından](../../releases/latest)** indir.
 | 🍎 **macOS** (Intel) | `PaintlyPaint-x.y.z-mac-x64.dmg` | Intel işlemcili Mac'ler |
 
 > [!NOTE]
-> **macOS'ta ilk açılış:** Uygulama henüz ücretli bir Apple sertifikasıyla imzalanmadığı için macOS "açılamıyor" diyebilir.
-> Uygulamaya sağ tıkla → **Aç** → **Aç** (bir kez yeterli) ya da şunu çalıştır: `xattr -cr "/Applications/Paintly Paint.app"`
+> **macOS'ta ilk açılış:** **Paintly Paint**'i **Uygulamalar** klasörüne sürükle ve aç. Uygulama henüz ücretli bir Apple sertifikasıyla imzalanmadığı için macOS "doğrulanamadı" diyecek.
+> **Bitti**'ye tıkla, **Sistem Ayarları → Gizlilik ve Güvenlik**'e git, aşağı kaydır ve **Yine de Aç**'a tıkla (bir kez yeterli).
+> Ya da Terminal'de: `xattr -cr "/Applications/Paintly Paint.app"`
 >
 > **Windows'ta ilk açılış:** SmartScreen "Windows bilgisayarınızı korudu" diyebilir → **Ek bilgi** → **Yine de çalıştır**.
 
@@ -78,7 +79,7 @@ En son sürümü **[Releases sayfasından](../../releases/latest)** indir.
 <td valign="top">
 
 ### ✂️ Seçimler
-- **Dikdörtgen**, **Elips**, **Kement** ve **Sihirli Değnek**
+- **Dikdörtgen**, **Elips**, **Kement** ve **Değnek**
 - Değiştir, ekle, çıkar, kesişim, xor modları
 - Hareketli "karınca" kenarlıklar 🐜
 - Tutamaçlarla boyutlandırılabilen **Seçili Pikselleri Taşı**
@@ -215,7 +216,8 @@ Bağış yapamıyor musun? Repoya ⭐ **yıldız vermek** de çok yardımcı olu
 | :-- | :-- |
 | [Resmî Releases sayfasından](../../releases/latest) ücretsiz indirmek | Uygulamayı değiştirmek, kaynak kodunu çıkarmak |
 | Kişisel, eğitim ve kâr amacı gütmeyen kullanım | Uygulama dosyalarını paylaşmak veya başka yere yüklemek. Bunun yerine resmî linki paylaş 🙂 |
-| Resmî linkle arkadaşlarına önermek | Satmak veya ticari amaçla kullanmak |
+| **Kendi çizdiğin resimleri** her amaçla, **ticari olarak bile** kullanmak 🎨 | **Uygulamayı satmak** veya ticari bir ürünün parçası yapmak |
+| Resmî linkle arkadaşlarına önermek | Lisans veya telif bildirimlerini kaldırmak |
 
 Paintly Paint ile **senin çizdiğin resimler** tamamen sana aittir; ticari dahil istediğin gibi kullanabilirsin.
 Başka bir izin için lütfen [issue aç](../../issues).
