@@ -208,7 +208,7 @@ Found a typo or awkward wording? [Open an issue](../../issues) and tell me, than
 | Tool | Key | | Command | Shortcut |
 | :-- | :-: | :-- | :-- | :-- |
 | Selection tools (cycle) | `S` | | New / Open / Save | `Ctrl` `N` / `O` / `S` |
-| Move tools (cycle) | `M` | | Undo / Redo | `Ctrl` `Z` / `Ctrl` `Y` (`⌘⇧Z`) |
+| Move tools (cycle) | `M` | | Undo / Redo | `Ctrl` `Z` / `Ctrl` `Y` (`⌘Y` · `⌘⇧Z`) |
 | Zoom / Pan | `Z` / `H` | | Copy / Paste | `Ctrl` `C` / `V` |
 | Pencil / Paintbrush | `P` / `B` | | Paste into new layer | `Ctrl` `Shift` `V` |
 | Airbrush / Eraser | `A` / `E` | | Select all / Deselect | `Ctrl` `A` / `Ctrl` `D` |

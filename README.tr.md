@@ -204,7 +204,7 @@ Windows'taki `Ctrl`, macOS'ta `⌘` demektir. Tam liste için uygulamada **F1**'
 | Araç | Tuş | | Komut | Kısayol |
 | :-- | :-: | :-- | :-- | :-- |
 | Seçim araçları (sırayla) | `S` | | Yeni / Aç / Kaydet | `Ctrl` `N` / `O` / `S` |
-| Taşıma araçları | `M` | | Geri al / Yinele | `Ctrl` `Z` / `Ctrl` `Y` (`⌘⇧Z`) |
+| Taşıma araçları | `M` | | Geri al / Yinele | `Ctrl` `Z` / `Ctrl` `Y` (`⌘Y` · `⌘⇧Z`) |
 | Yakınlaştır / Kaydır | `Z` / `H` | | Kopyala / Yapıştır | `Ctrl` `C` / `V` |
 | Kurşun kalem / Fırça | `P` / `B` | | Yeni katmana yapıştır | `Ctrl` `Shift` `V` |
 | Sprey / Silgi | `A` / `E` | | Tümünü seç / Seçimi kaldır | `Ctrl` `A` / `Ctrl` `D` |
