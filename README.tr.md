@@ -5,7 +5,7 @@
 <br>
 
 **Klasik Paint ve Paint.NET'te sevdiğin her şey, tek bir tatlı ve ücretsiz uygulamada.**
-Katmanlar, 60'tan fazla efekt ve ayarlama, değnek, degradeler, metin, şekiller, sınırsız geri alma ve 20 dil.
+Katmanlar, maskeler ve gruplar, 60'tan fazla efekt ve ayarlama, cihazda çalışan yapay zekâ araçları (nesne ve arka plan silme, akıllı büyütme), PSD ve HEIC desteği, sınırsız geri alma ve 20 dil.
 
 <br>
 
@@ -48,7 +48,7 @@ En son sürümü **[Releases sayfasından](../../releases/latest)** indir.
 
 > *Apple, "Paintly Paint" öğesinin Mac'inize zarar verebilecek veya gizliliğinizi ihlal edebilecek bir kötü amaçlı yazılım içermediğini doğrulayamadı.*
 
-**Bu uyarı neden çıkıyor?** Apple bu uyarıyı yalnızca Apple Developer Program'a (yıllık 99 $) üye olan ve her sürümünü Apple'a kontrol ettiren ("notarization") geliştiricilerin uygulamalarında göstermiyor. Paintly Paint ücretsiz bir hobi projesi ve henüz bu onaydan geçmedi, bu yüzden macOS uygulamaya kefil olamıyor. Uygulama güvenli: hiçbir veri toplamaz, internete bağlanmaz, sadece senin seçtiğin resim dosyalarını açıp kaydeder.
+**Bu uyarı neden çıkıyor?** Apple bu uyarıyı yalnızca Apple Developer Program'a (yıllık 99 $) üye olan ve her sürümünü Apple'a kontrol ettiren ("notarization") geliştiricilerin uygulamalarında göstermiyor. Paintly Paint ücretsiz bir hobi projesi ve henüz bu onaydan geçmedi, bu yüzden macOS uygulamaya kefil olamıyor. Uygulama güvenli: hiçbir veri toplamaz, sadece senin seçtiğin resim dosyalarını açıp kaydeder. Tek ağ isteği GitHub'da yeni sürüm olup olmadığına bakmaktır ve Ayarlar'dan kapatılabilir. Arka plan ve nesne silme gibi yapay zekâ özellikleri tamamen bilgisayarında çalışır. Tek istisna, kendi OpenAI anahtarınla isteğe bağlı kullanılan Üretken Doldurma'dır: yalnızca o zaman seçili alan OpenAI'ye gönderilir.
 
 **Yine de açmak için (bir kez yeterli):**
 
@@ -78,6 +78,25 @@ Tarayıcı indirdiğin her dosyaya "internetten indirildi" işareti (*karantina*
 
 ## ✨ Özellikler
 
+### 🪄 Akıllı özellikler (1.1'de yeni)
+
+**Bilgisayarında** çalışan, hesap ya da yükleme gerektirmeyen yapay zekâ tarzı araçlar. Araç kutusunun altındaki **✦ Akıllı** bölümünde bulabilir ya da **Özellik ara** kutusuna (`Ctrl` `K`) ne yapmak istediğini yazabilirsin.
+
+| | |
+| :-- | :-- |
+| 🧽 **Nesneyi Kaldır** | İstenmeyen bir şeyi seç ve `Shift` `Delete`'e bas. Çevresine karışarak iz bırakmadan kaybolur (içerik duyarlı doldurma). |
+| ✂️ **Arka Planı Kaldır** | Tek tıkla kişiyi ya da nesneyi bulur ve arka planı siler (cihazdaki yapay zekâ modeli). |
+| 🎯 **Konuyu Seç / Nesne Seçimi** | Ana konuyu tek tıkla seç ya da herhangi bir nesnenin etrafına kutu çiz. |
+| 🩹 **Leke Giderme ve İyileştirme Fırçası** | Lekelerin, çiziklerin, kabloların üzerinden geç, kaybolsunlar; ten ve dokuları ışığı koruyarak düzelt. |
+| 🚚 **İçerik Duyarlı Taşıma** | Bir nesneyi başka yere sürükle; boşalan yer kendiliğinden dolar. |
+| 🌅 **Otomatik İyileştir** | Renk sapmasını, pozlamayı ve kontrastı tek tıkla düzeltir. |
+| 📸 **Portre Bulanıklığı** | Kişileri net tutar, arka planı profesyonel kamera gibi bulanıklaştırır (bokeh). |
+| 🔍 **Akıllı Büyüt** | 2×, 3× ya da 4× büyütür; kenarlar keskin kalır, hale oluşmaz. |
+| ↔️ **İçerik Duyarlı Ölçekle** | Kişileri ve nesneleri ezmeden genişliği ya da yüksekliği değiştirir. |
+| 🎞️ **Fotoğraf Filtreleri** | Canlı önizlemeli 17 Instagram tarzı ton (sıcak, vintage, sinematik, noir…). |
+| ✨ **Üretken Doldurma** | Seçimde ne görünmesi gerektiğini yaz. Kendi OpenAI anahtarınla çalışır (isteğe bağlı); anahtarsız alan bilgisayarında doldurulur. |
+| ↔ **Önce / Sonra** | Her akıllı işlemden sonra ayırma çizgisini sürükleyerek karşılaştır, sonra koru ya da geri al. |
+
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -90,6 +109,9 @@ Tarayıcı indirdiğin her dosyaya "internetten indirildi" işareti (*karantina*
 - **Degrade**: doğrusal, yansıyan, dairesel, elmas, konik ve şeffaflık modu
 - **Klon Damgası** ve **Yeniden Renklendir**
 - 1 / 3×3 / 5×5 / 9×9 örneklemeli **Renk Seçici**
+- **Fırça ön ayarları**, seçimden özel fırça, titreme önleyici **yumuşatma**, aralık, dağılma
+- **Parmak**, **Aç / Yak**, **Bulanıklaştır / Keskinleştir** ve **Sıvılaştır** (it, girdap, şişir, büz)
+- RGB / HSV / saydamlık kaydırıcılı ve HEX kodlu **renk çarkı**
 - Basınca duyarlı kalem desteği ✍️
 
 </td>
@@ -100,7 +122,9 @@ Tarayıcı indirdiğin her dosyaya "internetten indirildi" işareti (*karantina*
 - Kontur / dolgu / kontur + dolgu, kesikli ve noktalı çizgiler
 - Şekiller onaylanana kadar **tutamaçlarla düzenlenebilir**
 - Paint usulü bükülebilen **Çizgi / Eğri** aracı ve ok uçları
-- Her yazı tipiyle **Metin**: boyut, kalın, italik, altı çizili, üstü çizili, hizalama
+- İstediğin zaman **yeniden düzenlenebilen yazı katmanları** (yazı tipi, boyut, stil, hizalama)
+- Bézier yollar için **Kalem aracı**: seçime çevir, doldur ya da konturla
+- Şekil hâlâ tutamaçlıyken rengini değiştir, Paint.NET'teki gibi
 
 </td>
 </tr>
@@ -111,14 +135,16 @@ Tarayıcı indirdiğin her dosyaya "internetten indirildi" işareti (*karantina*
 - **Dikdörtgen**, **Elips**, **Kement** ve **Değnek**
 - Değiştir, ekle, çıkar, kesişim, xor modları
 - Hareketli "karınca" kenarlıklar 🐜
-- Tutamaçlarla boyutlandırılabilen **Seçili Pikselleri Taşı**
+- **Serbest Dönüştür** (`Ctrl` `T`): taşı, ölçekle, **döndür, eğ, boz, perspektif** ve **bük (warp)**
+- Oran ön ayarlı, üçler kuralı ızgaralı ve **ufku otomatik düzelten** **Kırpma aracı**
 - Seçime kırp, seçimi sil / doldur, seçimi tersine çevir
 
 </td>
 <td valign="top">
 
 ### 🧅 Katmanlar
-- Küçük resimli, sınırsız katman
+- Küçük resimli, sınırsız katman, **gruplar (klasörler)** ve **katman maskeleri**
+- Sonradan değiştirilebilen **ayar katmanları** ve **katman efektleri** (gölge, kontur, parıltı, iç gölge, renk kaplaması)
 - Opaklık, görünürlük ve **18 karışım modu**
 - Ekle, sil, çoğalt, aşağı birleştir, düzleştir, sürükleyerek sırala
 - Dosyadan katman olarak içe aktar
@@ -152,8 +178,11 @@ Her efektte **canlı önizleme** var.
 <td valign="top">
 
 ### 🖼️ Resim ve dosyalar
-- **PNG, JPG, BMP, GIF, WebP, ICO, SVG, AVIF** açar
-- **PNG, JPG, WebP, BMP, ICO** veya katmanlı **`.ppaint`** proje formatında kaydeder
+- **PNG, JPG, BMP, GIF, WebP, ICO, SVG, AVIF, PSD, TIFF** ve **HEIC** (iPhone fotoğrafları) açar
+- **PNG, JPG, WebP, BMP, ICO, TIFF, PSD** (katmanlarıyla), katmanlı **`.ppaint`** ya da **animasyonlu GIF** (her katman bir kare) olarak kaydeder
+- Baskıya hazır **CMYK TIFF** ve **16-bit TIFF**, gamut uyarılı **CMYK önizleme**
+- **Makrolar** ve klasörlerce **toplu işlem**
+- **Otomatik kaydetme** ve çökme sonrası kurtarma
 - Yeniden boyutlandır, tuval boyutu (çapa ile), otomatik kırp
 - Çevir ve 90° / 180° döndür
 - **Sekmelerde** birden fazla resim, sürükle-bırak ile açma
@@ -168,6 +197,10 @@ Her efektte **canlı önizleme** var.
 - Her yerde yaylı animasyonlar ve küçük bir açılış ekranı 🎉
 - Tıklanabilir **Geçmiş** paneliyle sınırsız **geri al / yinele**
 - %1–%6400 yakınlaştırma, piksel ızgarası, cetveller, trackpad ile yakınlaştırma
+- **Gezgin**, **Histogram** ve **Bilgi** panelleri
+- **Özellik ara** kutusu: ne yapmak istediğini yaz ve çalıştır
+- Her araçta açıklama balonları, **uygulama içi güncelleme bildirimi**
+- **Eklentiler**: kendi efektlerini ekle (güvenli, yalıtılmış)
 - Windows'ta (Ctrl) ve macOS'ta (⌘) doğal kısayollar
 
 </td>
@@ -204,12 +237,17 @@ Windows'taki `Ctrl`, macOS'ta `⌘` demektir. Tam liste için uygulamada **F1**'
 | Araç | Tuş | | Komut | Kısayol |
 | :-- | :-: | :-- | :-- | :-- |
 | Seçim araçları (sırayla) | `S` | | Yeni / Aç / Kaydet | `Ctrl` `N` / `O` / `S` |
+| Nesne Seçimi | `W` | | Özellik ara | `Ctrl` `K` |
+| Kırp | `C` | | Serbest Dönüştür | `Ctrl` `T` |
+| İyileştirme fırçaları (sırayla) | `J` | | Nesneyi Kaldır | `Shift` `Delete` |
+| Parmak / Aç-Yak / Bulanıklaştır | `U` / `O` / `Y` | | Otomatik İyileştir | `Ctrl` `Alt` `E` |
+| Sıvılaştır / Kalem | `Q` / `P` | | Arka Planı Kaldır | `Ctrl` `Alt` `B` |
 | Taşıma araçları | `M` | | Geri al / Yinele | `Ctrl` `Z` / `Ctrl` `Y` (`⌘Y` · `⌘⇧Z`) |
 | Yakınlaştır / Kaydır | `Z` / `H` | | Kopyala / Yapıştır | `Ctrl` `C` / `V` |
 | Kurşun kalem / Fırça | `P` / `B` | | Yeni katmana yapıştır | `Ctrl` `Shift` `V` |
 | Sprey / Silgi | `A` / `E` | | Tümünü seç / Seçimi kaldır | `Ctrl` `A` / `Ctrl` `D` |
 | Boya kovası / Degrade | `F` / `G` | | Seçime kırp | `Ctrl` `Shift` `X` |
-| Renk seçici | `K` | | Yeniden boyutlandır / Tuval boyutu | `Ctrl` `E` / `Ctrl` `Shift` `R` |
+| Renk seçici | `K` | | Yeniden boyutlandır / Tuval boyutu | `Ctrl` `R` / `Ctrl` `Shift` `R` |
 | Klon damgası / Yeniden renklendir | `L` / `R` | | Yeni katman | `Ctrl` `Shift` `N` |
 | Metin | `T` | | Yakınlaştır / Uzaklaştır / Sığdır | `Ctrl` `+` / `-` / `B` |
 | Çizgi, Şekiller | `O` | | Son efekti tekrarla | `Ctrl` `F` |

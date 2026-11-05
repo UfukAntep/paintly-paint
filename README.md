@@ -5,7 +5,7 @@
 <br>
 
 **Everything you love about classic Paint and Paint.NET, in one cute, free app.**
-Layers, 60+ effects & adjustments, wand, gradients, text, shapes, unlimited undo, and 20 languages.
+Layers, masks & groups, 60+ effects & adjustments, on-device AI tools (remove objects & backgrounds, smart upscale), PSD & HEIC support, unlimited undo, and 20 languages.
 
 <br>
 
@@ -48,7 +48,7 @@ The first time you open it, macOS shows this warning:
 
 > *Apple could not verify "Paintly Paint" is free of malware that may harm your Mac or compromise your privacy.*
 
-**Why does this happen?** Apple only skips this warning for apps from developers who pay for the Apple Developer Program (US$99 per year) and send each version to Apple for checking ("notarization"). Paintly Paint is a free hobby project and isn't notarized yet, so macOS can't vouch for it. The app is safe. It doesn't collect any data or connect to the internet, and it only reads and saves the image files you choose.
+**Why does this happen?** Apple only skips this warning for apps from developers who pay for the Apple Developer Program (US$99 per year) and send each version to Apple for checking ("notarization"). Paintly Paint is a free hobby project and isn't notarized yet, so macOS can't vouch for it. The app is safe. It doesn't collect any data and only reads and saves the image files you choose. Its only network request is an optional check for new versions on GitHub, which you can turn off in Settings. AI features such as background removal and object removal run entirely on your computer. The one exception is the optional Generative Fill with your own OpenAI key: only then is the selected area sent to OpenAI.
 
 **To open it anyway (once):**
 
@@ -78,6 +78,25 @@ Run `PaintlyPaint-x.y.z-win-setup.exe` (or the portable `.exe`). Windows SmartSc
 
 ## ✨ Features
 
+### 🪄 Smart features (new in 1.1)
+
+AI-style tools that run **on your computer**, no account and no upload needed. Find them in the **✦ Smart** section at the bottom of the toolbox, or type what you need in **Search features** (`Ctrl` `K`).
+
+| | |
+| :-- | :-- |
+| 🧽 **Remove Object** | Select something unwanted and press `Shift` `Delete`. It disappears into its surroundings without a trace (content-aware fill). |
+| ✂️ **Remove Background** | One click finds the person or object and erases the background (on-device AI model). |
+| 🎯 **Select Subject / Object Selection** | Select the main subject in one click, or draw a box around any object. |
+| 🩹 **Spot Healing & Healing Brush** | Paint over spots, scratches or wires and they vanish; heal skin and textures while keeping the light. |
+| 🚚 **Content-Aware Move** | Drag an object somewhere else; the spot it left is filled automatically. |
+| 🌅 **Auto Enhance** | Fixes color cast, exposure and contrast in one click. |
+| 📸 **Portrait Blur** | Keeps people sharp and blurs the background like a pro camera (bokeh). |
+| 🔍 **Smart Upscale** | Enlarges 2×, 3× or 4× with crisp edges and no halos. |
+| ↔️ **Content-Aware Scale** | Changes width or height without squashing people and objects. |
+| 🎞️ **Photo Filters** | 17 Instagram-style looks (warm, vintage, cinematic, noir…) with live thumbnails. |
+| ✨ **Generative Fill** | Describe what should appear in a selection. Uses your own OpenAI key (optional); without it, the area is filled on-device. |
+| ↔ **Before / After** | After every smart operation, drag the split line to compare, then keep or revert. |
+
 <table>
 <tr>
 <td width="50%" valign="top">
@@ -90,6 +109,9 @@ Run `PaintlyPaint-x.y.z-win-setup.exe` (or the portable `.exe`). Windows SmartSc
 - **Gradients** — linear, reflected, radial, diamond, conical, plus transparency mode
 - **Clone Stamp** and **Recolor** tools
 - **Color Picker** with 1/3×3/5×5/9×9 sampling
+- **Brush presets**, custom brushes from any selection, stroke **smoothing**, spacing, scatter
+- **Smudge**, **Dodge / Burn**, **Blur / Sharpen** and **Liquify** (push, twirl, bloat, pinch)
+- **Color wheel** with RGB / HSV / alpha sliders and hex
 - Pressure-sensitive pens supported ✍️
 
 </td>
@@ -100,7 +122,9 @@ Run `PaintlyPaint-x.y.z-win-setup.exe` (or the portable `.exe`). Windows SmartSc
 - Outline / filled / outline + fill, dashed and dotted strokes
 - Shapes stay **editable with handles** until you commit
 - **Line / Curve** tool with Paint-style bending and arrow heads
-- **Text** with any font, size, bold, italic, underline, strikethrough and alignment, live on the canvas
+- **Text layers** with any font, size, style and alignment that you can **edit again** any time
+- **Pen tool** for Bézier paths: turn them into selections, fill or stroke them
+- Change the color of a shape while it still has handles, like Paint.NET
 
 </td>
 </tr>
@@ -111,14 +135,16 @@ Run `PaintlyPaint-x.y.z-win-setup.exe` (or the portable `.exe`). Windows SmartSc
 - **Rectangle**, **Ellipse**, **Lasso** and **Wand**
 - Replace, add, subtract, intersect, xor modes
 - Animated marching ants 🐜
-- **Move Selected Pixels** with resize handles, or **Move Selection** outline only
+- **Free Transform** (`Ctrl` `T`): move, scale, **rotate, skew, distort, perspective** and **warp**
+- **Crop tool** with ratio presets, rule-of-thirds grid and **automatic horizon straightening**
 - Crop to selection, erase / fill selection, invert selection
 
 </td>
 <td valign="top">
 
 ### 🧅 Layers
-- Unlimited layers with thumbnails
+- Unlimited layers with thumbnails, **groups (folders)** and **layer masks**
+- **Adjustment layers** you can change later, and **layer effects** (drop shadow, stroke, glow, inner shadow, color overlay)
 - Opacity, visibility and **18 blend modes**
 - Add, delete, duplicate, merge down, flatten, drag to reorder
 - Import an image as a new layer
@@ -152,8 +178,11 @@ Every effect has a **live preview**.
 <td valign="top">
 
 ### 🖼️ Image & files
-- Open **PNG, JPG, BMP, GIF, WebP, ICO, SVG, AVIF**
-- Save as **PNG, JPG, WebP, BMP, ICO** or the layered **`.ppaint`** project format
+- Open **PNG, JPG, BMP, GIF, WebP, ICO, SVG, AVIF, PSD, TIFF** and **HEIC** (iPhone photos)
+- Save as **PNG, JPG, WebP, BMP, ICO, TIFF, PSD** (with layers), the layered **`.ppaint`** format, or **animated GIF** (one frame per layer)
+- Print-ready **CMYK TIFF** and **16-bit TIFF**, **CMYK preview** with gamut warning
+- **Macros** and **batch processing** of whole folders
+- **Autosave** and crash recovery
 - Resize (smooth or nearest neighbor), canvas size with anchor, auto-crop
 - Flip and rotate 90° / 180°
 - Multiple images in **tabs**, drag & drop to open
@@ -168,6 +197,10 @@ Every effect has a **live preview**.
 - Bouncy animations everywhere, plus a little splash screen 🎉
 - Unlimited **undo / redo** with a clickable **History** panel
 - Zoom 1%–6400%, pixel grid, rulers, trackpad pinch-zoom
+- **Navigator**, **Histogram** and **Info** panels
+- **Search features** box: type what you want to do and run it
+- Tooltips on every tool, **in-app update notifications**
+- **Plugins**: add your own effects (safely sandboxed)
 - Native-feeling shortcuts on Windows (Ctrl) and macOS (⌘)
 
 </td>
@@ -208,12 +241,17 @@ Found a typo or awkward wording? [Open an issue](../../issues) and tell me, than
 | Tool | Key | | Command | Shortcut |
 | :-- | :-: | :-- | :-- | :-- |
 | Selection tools (cycle) | `S` | | New / Open / Save | `Ctrl` `N` / `O` / `S` |
+| Object Selection | `W` | | Search features | `Ctrl` `K` |
+| Crop | `C` | | Free Transform | `Ctrl` `T` |
+| Healing brushes (cycle) | `J` | | Remove Object | `Shift` `Delete` |
+| Smudge / Dodge-Burn / Blur | `U` / `O` / `Y` | | Auto Enhance | `Ctrl` `Alt` `E` |
+| Liquify / Pen | `Q` / `P` | | Remove Background | `Ctrl` `Alt` `B` |
 | Move tools (cycle) | `M` | | Undo / Redo | `Ctrl` `Z` / `Ctrl` `Y` (`⌘Y` · `⌘⇧Z`) |
 | Zoom / Pan | `Z` / `H` | | Copy / Paste | `Ctrl` `C` / `V` |
 | Pencil / Paintbrush | `P` / `B` | | Paste into new layer | `Ctrl` `Shift` `V` |
 | Airbrush / Eraser | `A` / `E` | | Select all / Deselect | `Ctrl` `A` / `Ctrl` `D` |
 | Paint Bucket / Gradient | `F` / `G` | | Crop to selection | `Ctrl` `Shift` `X` |
-| Color Picker | `K` | | Resize / Canvas size | `Ctrl` `E` / `Ctrl` `Shift` `R` |
+| Color Picker | `K` | | Resize / Canvas size | `Ctrl` `R` / `Ctrl` `Shift` `R` |
 | Clone Stamp / Recolor | `L` / `R` | | New layer | `Ctrl` `Shift` `N` |
 | Text | `T` | | Zoom in / out / fit | `Ctrl` `+` / `-` / `B` |
 | Line, Shapes (cycle) | `O` | | Repeat last effect | `Ctrl` `F` |
