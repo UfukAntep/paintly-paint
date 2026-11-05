@@ -78,7 +78,7 @@ Tarayıcı indirdiğin her dosyaya "internetten indirildi" işareti (*karantina*
 
 ## ✨ Özellikler
 
-### 🪄 Akıllı özellikler (1.1'de yeni)
+### 🪄 Akıllı özellikler (1.2'de güncellendi)
 
 **Bilgisayarında** çalışan, hesap ya da yükleme gerektirmeyen yapay zekâ tarzı araçlar. Araç kutusunun altındaki **✦ Akıllı** bölümünde bulabilir ya da **Özellik ara** kutusuna (`Ctrl` `K`) ne yapmak istediğini yazabilirsin.
 
@@ -86,6 +86,10 @@ Tarayıcı indirdiğin her dosyaya "internetten indirildi" işareti (*karantina*
 | :-- | :-- |
 | 🧽 **Nesneyi Kaldır** | İstenmeyen bir şeyi seç ve `Shift` `Delete`'e bas. Çevresine karışarak iz bırakmadan kaybolur (içerik duyarlı doldurma). |
 | ✂️ **Arka Planı Kaldır** | Tek tıkla kişiyi ya da nesneyi bulur ve arka planı siler (cihazdaki yapay zekâ modeli). |
+| 🖼️ **Arka Planı Değiştir** *(yeni)* | Konuyu yeni bir arka plana koyar: bulanık, düz renk, degrade ya da başka bir fotoğraf. Eski arka plan, ince ayar yapabileceğin bir maskenin altında saklanır. |
+| ⛅ **Gökyüzünü Değiştir** *(yeni)* | Gökyüzünü bulur; açık, bulutlu, gün batımı, altın saat, alacakaranlık, gece ya da kendi fotoğrafınla değiştirir ve yerin ışığını yeni gökyüzüne uydurur. |
+| 💄 **Portre Rötuşu** *(yeni)* | Yüzleri bilgisayarında bulur; cildi pürüzsüzleştirir, gözleri parlatır, dişleri beyazlatır. Her biri ayrı kaydırıcıyla. |
+| 🕰️ **Eski Fotoğrafı Onar** *(yeni)* | Toz ve çizikleri siler, greni azaltır, solmayı ve sararmayı düzeltir; rengi koru ya da siyah beyaz / sepya yap. |
 | 🎯 **Konuyu Seç / Nesne Seçimi** | Ana konuyu tek tıkla seç ya da herhangi bir nesnenin etrafına kutu çiz. |
 | 🩹 **Leke Giderme ve İyileştirme Fırçası** | Lekelerin, çiziklerin, kabloların üzerinden geç, kaybolsunlar; ten ve dokuları ışığı koruyarak düzelt. |
 | 🚚 **İçerik Duyarlı Taşıma** | Bir nesneyi başka yere sürükle; boşalan yer kendiliğinden dolar. |
@@ -124,6 +128,7 @@ Tarayıcı indirdiğin her dosyaya "internetten indirildi" işareti (*karantina*
 - Paint usulü bükülebilen **Çizgi / Eğri** aracı ve ok uçları
 - İstediğin zaman **yeniden düzenlenebilen yazı katmanları** (yazı tipi, boyut, stil, hizalama)
 - Bézier yollar için **Kalem aracı**: seçime çevir, doldur ya da konturla
+- **Eğri yazı** *(yeni)*: yazıyı kavis şeklinde bük ya da bir kalem yolu boyunca yürüt; düzenlenebilir kalır
 - Şekil hâlâ tutamaçlıyken rengini değiştir, Paint.NET'teki gibi
 
 </td>
@@ -138,6 +143,8 @@ Tarayıcı indirdiğin her dosyaya "internetten indirildi" işareti (*karantina*
 - **Serbest Dönüştür** (`Ctrl` `T`): taşı, ölçekle, **döndür, eğ, boz, perspektif** ve **bük (warp)**
 - Oran ön ayarlı, üçler kuralı ızgaralı ve **ufku otomatik düzelten** **Kırpma aracı**
 - Seçime kırp, seçimi sil / doldur, seçimi tersine çevir
+- **Seçimi değiştir** *(yeni)*: genişlet, daralt, yumuşat, kenarlık, düzgünleştir ve **kenarı iyileştir** (saç, tüy)
+- Canlı önizlemeli **renk aralığına göre seç** *(yeni)*
 
 </td>
 <td valign="top">
@@ -149,6 +156,10 @@ Tarayıcı indirdiğin her dosyaya "internetten indirildi" işareti (*karantina*
 - Ekle, sil, çoğalt, aşağı birleştir, düzleştir, sürükleyerek sırala
 - Dosyadan katman olarak içe aktar
 - Katmanı çevir, **döndür / yakınlaştır**
+- **Birden çok katman seç** *(yeni)*: `Ctrl`/`⌘`+tık ya da `Shift`+tık ile birlikte taşı, grupla, birleştir ya da sil
+- **Kırpma maskeleri** *(yeni)*: bir katmanı yalnızca altındakinin içinde göster (`Ctrl` `Alt` `C`)
+- **Akıllı nesneler** *(yeni)*: kalite kaybetmeden istediğin kadar ölçekle ve dönüştür
+- **Kılavuzlar, yapışma ve hizala / dağıt** *(yeni)*: kılavuzları cetvellerden sürükleyerek çıkar
 
 </td>
 </tr>
@@ -188,6 +199,7 @@ Her efektte **canlı önizleme** var.
 - **Sekmelerde** birden fazla resim, sürükle-bırak ile açma
 - Sistem panosuyla kopyala / yapıştır, yeni katmana veya yeni resme yapıştır
 - Yazdır
+- Bir ekranın ya da pencerenin **ekran görüntüsünü al** *(yeni)*; gecikme ve isteğe bağlı kırpma ile
 
 </td>
 <td valign="top">
@@ -201,7 +213,7 @@ Her efektte **canlı önizleme** var.
 - **Özellik ara** kutusu: ne yapmak istediğini yaz ve çalıştır
 - Her araçta açıklama balonları, **uygulama içi güncelleme bildirimi**
 - **Eklentiler**: kendi efektlerini ekle (güvenli, yalıtılmış)
-- Windows'ta (Ctrl) ve macOS'ta (⌘) doğal kısayollar
+- Windows'ta (Ctrl) ve macOS'ta (⌘) doğal kısayollar; her komut ve araç için **kendi kısayolların** *(yeni)*
 
 </td>
 </tr>
@@ -232,7 +244,7 @@ Bir çeviri hatası mı gördün? [Issue açıp](../../issues) haber verirsen ç
 
 ## ⌨️ Klavye kısayolları
 
-Windows'taki `Ctrl`, macOS'ta `⌘` demektir. Tam liste için uygulamada **F1**'e bas.
+Windows'taki `Ctrl`, macOS'ta `⌘` demektir. Tam liste için uygulamada **F1**'e bas; oradaki herhangi bir kısayola tıklayarak **kendi kısayolunla değiştirebilirsin** (Tümünü sıfırla varsayılanlara döndürür).
 
 | Araç | Tuş | | Komut | Kısayol |
 | :-- | :-: | :-- | :-- | :-- |

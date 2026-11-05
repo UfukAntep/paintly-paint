@@ -78,7 +78,7 @@ Run `PaintlyPaint-x.y.z-win-setup.exe` (or the portable `.exe`). Windows SmartSc
 
 ## ✨ Features
 
-### 🪄 Smart features (new in 1.1)
+### 🪄 Smart features (updated in 1.2)
 
 AI-style tools that run **on your computer**, no account and no upload needed. Find them in the **✦ Smart** section at the bottom of the toolbox, or type what you need in **Search features** (`Ctrl` `K`).
 
@@ -86,6 +86,10 @@ AI-style tools that run **on your computer**, no account and no upload needed. F
 | :-- | :-- |
 | 🧽 **Remove Object** | Select something unwanted and press `Shift` `Delete`. It disappears into its surroundings without a trace (content-aware fill). |
 | ✂️ **Remove Background** | One click finds the person or object and erases the background (on-device AI model). |
+| 🖼️ **Replace Background** *(new)* | Puts the subject on a new background: blurred, a color, a gradient or another photo. The old background is kept under a mask you can fine-tune. |
+| ⛅ **Replace Sky** *(new)* | Finds the sky and swaps in a clear, cloudy, sunset, golden-hour, dusk or night sky, or your own photo, and matches the light of the land to it. |
+| 💄 **Portrait Retouch** *(new)* | Finds faces on your computer, then smooths skin, brightens eyes and whitens teeth, each with its own slider. |
+| 🕰️ **Restore Old Photo** *(new)* | Removes dust and scratches, reduces grain, fixes fading and yellowing; keep the color or go black & white or sepia. |
 | 🎯 **Select Subject / Object Selection** | Select the main subject in one click, or draw a box around any object. |
 | 🩹 **Spot Healing & Healing Brush** | Paint over spots, scratches or wires and they vanish; heal skin and textures while keeping the light. |
 | 🚚 **Content-Aware Move** | Drag an object somewhere else; the spot it left is filled automatically. |
@@ -124,6 +128,7 @@ AI-style tools that run **on your computer**, no account and no upload needed. F
 - **Line / Curve** tool with Paint-style bending and arrow heads
 - **Text layers** with any font, size, style and alignment that you can **edit again** any time
 - **Pen tool** for Bézier paths: turn them into selections, fill or stroke them
+- **Curved text** *(new)*: bend text into an arc or run it along a pen path, and it stays editable
 - Change the color of a shape while it still has handles, like Paint.NET
 
 </td>
@@ -138,6 +143,8 @@ AI-style tools that run **on your computer**, no account and no upload needed. F
 - **Free Transform** (`Ctrl` `T`): move, scale, **rotate, skew, distort, perspective** and **warp**
 - **Crop tool** with ratio presets, rule-of-thirds grid and **automatic horizon straightening**
 - Crop to selection, erase / fill selection, invert selection
+- **Modify selection** *(new)*: expand, contract, feather, border, smooth and **refine edge** (hair, fur)
+- **Select by color range** *(new)* with a live preview
 
 </td>
 <td valign="top">
@@ -149,6 +156,10 @@ AI-style tools that run **on your computer**, no account and no upload needed. F
 - Add, delete, duplicate, merge down, flatten, drag to reorder
 - Import an image as a new layer
 - Flip and **rotate / zoom** individual layers
+- **Select several layers** *(new)* with `Ctrl`/`⌘`+click or `Shift`+click to move, group, merge or delete them together
+- **Clipping masks** *(new)*: show a layer only inside the one below it (`Ctrl` `Alt` `C`)
+- **Smart objects** *(new)*: scale and transform as often as you like without losing quality
+- **Guides, snapping and align / distribute** *(new)*: drag guides out of the rulers
 
 </td>
 </tr>
@@ -188,6 +199,7 @@ Every effect has a **live preview**.
 - Multiple images in **tabs**, drag & drop to open
 - Copy / paste with the system clipboard, paste into a new layer or image
 - Print
+- **Take screenshots** *(new)* of a screen or a window, with a delay and optional cropping
 
 </td>
 <td valign="top">
@@ -201,7 +213,7 @@ Every effect has a **live preview**.
 - **Search features** box: type what you want to do and run it
 - Tooltips on every tool, **in-app update notifications**
 - **Plugins**: add your own effects (safely sandboxed)
-- Native-feeling shortcuts on Windows (Ctrl) and macOS (⌘)
+- Native-feeling shortcuts on Windows (Ctrl) and macOS (⌘), and **your own shortcuts** *(new)* for any command or tool
 
 </td>
 </tr>
@@ -236,7 +248,7 @@ Found a typo or awkward wording? [Open an issue](../../issues) and tell me, than
 
 ## ⌨️ Keyboard shortcuts
 
-`Ctrl` on Windows = `⌘` on macOS. You can see the full list in the app with **F1**.
+`Ctrl` on Windows = `⌘` on macOS. See the full list with **F1**; click any shortcut there to **change it to your own** (Reset all brings back the defaults).
 
 | Tool | Key | | Command | Shortcut |
 | :-- | :-: | :-- | :-- | :-- |
